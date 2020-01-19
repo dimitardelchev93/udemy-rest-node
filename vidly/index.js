@@ -1,3 +1,4 @@
+const debug = require('debug')('app:startup');
 const config = require('config');
 const express = require('express');
 const helmet = require('helmet');
